@@ -11,4 +11,3 @@ const model = ref("");
   </div>
   <ComponentWithGenericAndDefineModel :random-prop="'random stuff'" v-model="model" />
 </template>
-

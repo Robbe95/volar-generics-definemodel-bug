@@ -1,6 +1,6 @@
-<script setup lang="ts" generic="T = string">
+<script setup lang="ts" generic="t">
 defineProps<{ randomProp: string }>();
-const model = defineModel<T>();
+const model = defineModel<string>();
 </script>
 
 <template>
@@ -9,7 +9,6 @@ const model = defineModel<T>();
       {{ randomProp }}
     </div>
     <input style="background-color: red" v-model="model" />
-
   </div>
 </template>
 
